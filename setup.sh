@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+set -ex
+
 npm install -g sass
 
-sass input.scss output.css
+sass --version
+
+sass --help
